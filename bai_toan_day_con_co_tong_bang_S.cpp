@@ -35,7 +35,7 @@ int main(){
 	dp[0] = true;
 	
 	for( int i = 1 ; i <= n ; i++){
-		for( int j = s ; j >= a[i] ; j--){
+		for( int j = s ; j >= a[i] ; j--){ // Can chu y !?
 			if( dp[j - a[i]] == true ){
 				dp[j] = true;
 			}
