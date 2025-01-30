@@ -14,7 +14,7 @@ int n , x[100] , cot[100] , d1[100] , d2[100];
 int a[100][1000];
 int cnt = 0; // dem so cach dat n quan hau;
 
-int inkq(){
+void inkq(){
 	memset( a , 0 , sizeof(a));
 	for(int i = 1 ; i <= n ; i++){
 		a[i][x[i]] = 1;
