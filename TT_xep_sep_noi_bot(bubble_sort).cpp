@@ -1,4 +1,4 @@
-// giai thuat xap sep  noi bot (bubble_sort);
+// giai thuat xap sep  noi bot (bubble_sort); => O(n^2);
 #include<iostream>
 #include<bits/stdc++.h>
 
@@ -12,6 +12,40 @@ void bubble_sort( int a[] , int n ){
 		}
 	}
 }
+//Tối ưu thuật toán:
+/*
+void bubbleSort(int arr[], int n)  
+{  
+    int i, j;  
+    for (i = 0; i < n-1; i++)       
+    for (j = 0; j < n-i-1; j++)  
+        if (arr[j] > arr[j+1])  
+            swap(&arr[j], &arr[j+1]);  
+}  
+*/
+ // Chú ý ngay cả khi mảng đã được xấp sếp thì for vẫn thực hiện so sánh => O(n^2);
+//=> Ta có thể tối ưu bằng cách dugwf vòng lặp khi dòng for ở trong không có bất thì thay đổi nào.
+/*
+void bubbleSort(int arr[], int n) 
+{ 
+   int i, j; 
+   bool swapped; 
+   for (i = 0; i < n-1; i++) 
+   { 
+     swapped = false; 
+     for (j = 0; j < n-i-1; j++) 
+     { 
+        if (arr[j] > arr[j+1]) 
+        { 
+           swap(&arr[j], &arr[j+1]); 
+           swapped = true; 
+        } 
+     } 
+     if (swapped == false) 
+        break; 
+   } 
+} 
+*/
 
 int main(){
 	int n; cin >> n;
