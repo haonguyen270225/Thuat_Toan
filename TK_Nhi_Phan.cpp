@@ -19,9 +19,11 @@ int Binary_search( int a[] , int n ,  int k ){
 }
 int main(){
 	int n;
+	int k;
+	int a[100];
+	
 	cout << " Nhap so luong phan tu mang :";
 	cin >> n;
-	int a[n];
 	cout << " \n Nhap gia tri cac phan tu trong mang : \n";
 	for( auto &x : a){
 		cin >> x;
@@ -30,10 +32,10 @@ int main(){
 	for( auto x : a){
 		cout << x << " ";
 	}
-	int k;
 	cout << " \n Gia tri ban muon tim kiem la : ";
 	cin >> k;
 	if( Binary_search( a , n ,  k)) cout << " Yes !";
 	else cout << "No !";
+	
 	return 0;
 }
