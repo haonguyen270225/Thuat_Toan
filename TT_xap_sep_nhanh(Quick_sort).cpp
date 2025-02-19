@@ -1,4 +1,5 @@
 // xay dung thuat toan xap sep quick-sort bang phan hoach hoare;
+
 #include<iostream>
 #include<ctime>
 #include<stdlib.h>
@@ -45,18 +46,16 @@ int main(){
 	}
 	
 	cout << " MAng truoc khi duoc xap sep la : \n";
-	
 	for( int i = 0 ; i < n ; i++){
 		cout <<a[i] << " ";
 	}
 	
-	cout << "\n Mang sau khi duoc xap sep la : \n";
-	
 	quick_sort( a , 0 , n-1);
-	
+	cout << "\n Mang sau khi duoc xap sep la : \n";
 	for( int i = 0 ; i < n ; i++){
 		cout << a[i] << " ";
 	}
 	cout << endl;
+	
 	return 0;
 }
