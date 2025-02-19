@@ -51,6 +51,7 @@ void Try( int i){
 
 
 int main(){
+	cout << "Nhap so n tu ban phim : ";
 	cin >> n;
 	for( int i = 1 ; i < 100 ; i++){
 		cot[i] = d1[i] = d2[i] = 1;
