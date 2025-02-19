@@ -29,6 +29,7 @@ void InKQ() {
 bool Check_NextXY(int next_x, int next_y) {
 	return (next_x > 0 && next_y > 0 && next_x <= n && next_y <= n && !a[next_x][next_y]);
 }
+
 void Try(int n ,int x, int y) {
 	a[x][y] = tmp;
 	if (tmp == n * n) {
@@ -45,15 +46,19 @@ void Try(int n ,int x, int y) {
 		}
 	}
 }
+
+
 int main() {
 	memset(a, 0, sizeof(a));
 	cout << "Nhap n tu ban phim : ";
 	cin >> n;
+	
 	if (n == 1) {
 		cout << -1;
 		return 0;
 	}
 	Try(n, 1, 1);
+	
 	return 0;
 }
 
