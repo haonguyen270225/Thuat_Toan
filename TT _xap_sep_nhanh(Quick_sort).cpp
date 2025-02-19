@@ -1,4 +1,4 @@
-// Xay dung thuat toan xap sep nhanh quick_sort;
+// Xay dung thuat toan sap xep nhanh quick_sort;
 // Phan hoach lomuto (lomuto_partition);
 #include<bits/stdc++.h>
 using namespace std;
@@ -27,6 +27,7 @@ int main(){
 	int n; cin >> n;
 	int a[n];
 	srand(time(NULL));
+	
 	for( int i = 0 ; i < n; i++){
 		a[i] = rand() % 100;
 	}
