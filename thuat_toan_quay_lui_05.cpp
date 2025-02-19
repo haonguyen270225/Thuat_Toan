@@ -1,4 +1,4 @@
-﻿//Trên bàn cờ vua 
+//Trên bàn cờ vua 
 //8×8, mỗi bên sở hữu hai quân mã(knights).
 //Tim cách di chuyển của quân mã trên bàn cờ giống hình chữ L ?
 // Sao cho quân mã di chuyển qua tất cae các ô trên bàn cờ ? ( 1<=n<=10 );
@@ -49,6 +49,10 @@ int main() {
 	memset(a, 0, sizeof(a));
 	cout << "Nhap n tu ban phim : ";
 	cin >> n;
+	if (n == 1) {
+		cout << -1;
+		return 0;
+	}
 	Try(n, 1, 1);
 	return 0;
 }
