@@ -67,12 +67,14 @@ void Mergesort( int a[1000] , int left , int right ){
 }
 int main(){
 	int n;
+	
 	printf(" Nhap n : ");
 	scanf("%d",&n);
 	int a[1000];
 	for( int i = 0 ; i < n; i++){
 		scanf("%d",&a[i]);
 	}
+	
 	Mergesort( a , 0 , n-1);
 	for( int i = 0 ; i < n ; i++){
 		printf("%d   ",a[i]);
