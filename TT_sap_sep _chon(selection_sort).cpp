@@ -11,9 +11,11 @@ void selection_sort( int a[] , int n){
 		swap( a[i] , a[min_pos]);
 	}
 }
+
 int main(){
 	int n; cin >> n;
 	int a[n];
+	
 	for( int i = 0 ; i < n; i++){
 		cin >>a[i];
 	}
