@@ -2,7 +2,6 @@
 #include<ctime>
 using namespace std;
 
-
 void heapify( int a[] , int n , int i ){
 	int left = 2*i + 1;
 	int right = 2*i + 2;
@@ -43,6 +42,7 @@ int main(){
 	}while( n < 3);
 	int a[n];
 	srand(time(NULL));
+	
 	for( int i = 0 ; i < n; i++){
 		a[i] = rand() % 100;
 	}
@@ -50,5 +50,6 @@ int main(){
 	for( int i = 0 ; i < n; i++){
 		cout << a[i] << " ";
 	}
+	
 	return 0;
 }
