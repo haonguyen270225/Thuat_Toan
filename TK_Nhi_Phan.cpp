@@ -1,4 +1,7 @@
 //ky thuat tim kiem nhi phan (Binary_Search);
+//=> Độ phức tạp thời gian : O(logn) trong cơ số của 2;
+//=> Độ phức tạp về không gian : O(1) vì mỗi lần gọi đệ quy , một ngăn xếp mới được tạo ra.
+
 #include<iostream>
 using namespace std;
 int Binary_search( int a[] , int n ,  int k ){
