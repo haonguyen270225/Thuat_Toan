@@ -1,3 +1,4 @@
+// => Độ phức tập của  thuật toán là O(n^2) trong tất cả các trường hợp bao gồm xấu , tốt và trung bình;
 #include<iostream>
 using namespace std;
 void selection_sort( int a[] , int n){
