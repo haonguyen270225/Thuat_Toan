@@ -1,5 +1,13 @@
 // Xay dung thuat toan sap xep nhanh quick_sort;
 // Phan hoach lomuto (lomuto_partition);
+
+// xay dung thuat toan xap sep quick-sort bang phan hoach hoare;
+
+//*Nhận xét:
+//=>Độ phức tạp tốt nhất O(nlogn): Khi pivot luôn chia dãy thành hai phần bằng nhau.
+//=>Độ phức tạp xấu nhất O(n^2):Khi pivot là phần tử lớn nhất or nhỏ nhất trong dãy.
+//=>Trung bính O(nlogn) :do việt chọn pivot ngẫu nhiên nên tránh được các tình huống xấu nhất.
+//=> Có nhiều cách chọn phần tử pivot đầu , cuối , giữa hoặc là ngẫu nhiên trong dãy.
 #include<bits/stdc++.h>
 using namespace std;
 
