@@ -1,3 +1,6 @@
+//=> Độ phưc tạp về thời gian là O(nlogn);
+//=> Độ phức tạp về không gian là O(n) do cần phải bổ sung để lưu trữ các mảng con trong quá trình trộn;
+//=> Đây là thuật toán sắp xếp  ổn định.Nghĩa là 2 phần tử có cùng giá trị , thứ tự tương đối sẽ được bảo toàn sau khi xấp sếp.
 #include<stdio.h>
 
 void Merge(int a[1000] , int left , int middel , int right ){
