@@ -1,0 +1,40 @@
+# Các file nhị phân
+*.exe
+*.out
+*.app
+*.dll
+*.so
+*.dylib
+*.a
+*.lib
+*.o
+*.obj
+*.pdb
+
+# Thư mục build
+/build/
+/bin/
+/obj/
+/out/
+
+# Thư mục của IDE (ví dụ: Visual Studio, Code::Blocks, v.v.)
+.vs/
+.idea/
+.vscode/
+*.code-workspace
+
+# Các file của hệ thống OS
+Thumbs.db
+.DS_Store
+
+# Các file tạm thời hoặc cache của biên dịch
+*.log
+*.swp
+*.swo
+*.tmp
+
+# Các file cấu hình cá nhân (tuỳ thuộc vào IDE bạn đang sử dụng)
+*.user
+*.userosscache
+*.suo
+*.userprefs
