@@ -21,6 +21,11 @@ using namespace std;
 
 //Ham int tolower(int ch) trong C/C++;
 //int tolower(int ch) tra ve phien ban chu thuong cua ch neu co .Neu khong , no se tra ve chinh ch;
+
+// Ham char * strtok(char * str , char * delimiters);
+//Trong do str : Xau ky tu can tach
+// delimiters : Mot hoac nhieu ki tu can tach
+
 int main(){
 	char str[] = "abcd+_%; aeef";
 	
@@ -86,5 +91,21 @@ int main(){
 		cout <<(char)tolower(str_tolower[i]); // putchar(tolower(str_tolower[i]));
 	}
 	
-	
+	// Ham char * strtok( char *str , char * delimiters);
+	cout << "\n\nTach theo 1 ki tu : ";
+	char str_strtok[] = "Nguyen Van A La HOC SInh cap 2!";
+	cout << "\n\nXau ki tu ban dau : "<< str_strtok << endl;
+	char *token = strtok(str_strtok , " ");
+	while( token != NULL ){
+		cout << token << endl;
+		token = strtok(NULL , " ");
+	}
+	cout << "\n Tach theo nhieu ki tu :  ";
+	char str_strtok2[] = "Nguyen-Van A&La Hoc ^ Sinh Cap + 2!";
+	cout << "\n\n Xau ki tu ban dau : " << str_strtok2 << endl;
+	token = strtok(str_strtok2, " -&^+");
+	while(token != NULL ){
+		cout << token << endl;
+		token = strtok(NULL," -&^+");
+	}
 }
