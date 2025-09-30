@@ -19,6 +19,12 @@
     <Filter Include="Source Files\MeregeSort">
       <UniqueIdentifier>{99dff2b0-b8b1-450a-a762-021e4416dd88}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\InsertionSort">
+      <UniqueIdentifier>{8baa682a-9d0b-48cc-818f-e5a13546c47e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\QuickSort">
+      <UniqueIdentifier>{588e9ba0-e7ab-471f-8339-172745fda8b5}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="BubbleSort_2.cpp">
@@ -29,6 +35,12 @@
     </ClCompile>
     <ClCompile Include="MergeSort.cpp">
       <Filter>Source Files\MeregeSort</Filter>
+    </ClCompile>
+    <ClCompile Include="InsertionSort.cpp">
+      <Filter>Source Files\InsertionSort</Filter>
+    </ClCompile>
+    <ClCompile Include="QuickSort_01.cpp">
+      <Filter>Source Files\QuickSort</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
