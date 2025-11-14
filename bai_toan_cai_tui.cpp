@@ -23,15 +23,18 @@
 // max(dp[i-1][j] , dp[i-1][j-w[i]] + v[i]) : Neu lua chon do vat thu i vao tui .
 #include<iostream>
 #include<cstring>
+#include <vector>
 using namespace std;
 int main(){
-	int n , s; // Nhap so luong do vat va khoi luong toi da ma balo co the mang;
+	int n = 0  , s = 0; // Nhap so luong do vat va khoi luong toi da ma balo co the mang;
 	cin >> n >> s;
-	int w[n+1] , v[n+1];
+	//int w[n+1] , v[n+1];
+	vector <int> w, v;
 	for( int i = 1 ; i <= n ; i++) cin >> w[i];
 	for( int i = 1 ; i <= n ; i++) cin >> v[i];
 	
-	int dp[n+1][s+1];
+	//int dp[n+1][s+1];
+	int dp[100][100];
 	memset( dp , 0 , sizeof(dp));
 	
 	for( int i = 1 ; i <= n ; i++){
