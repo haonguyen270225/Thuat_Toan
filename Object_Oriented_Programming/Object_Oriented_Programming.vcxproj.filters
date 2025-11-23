@@ -4,5 +4,11 @@
     <ClCompile Include="Bai_1.cpp" />
     <ClCompile Include="Bai_1_KeThua_Inheritance.cpp" />
     <ClCompile Include="Bai_1_DaHinh_PoLymorphism.cpp" />
+    <ClCompile Include="Bai_3_LopCucBo_Local_Classes.cpp" />
+    <ClCompile Include="Bai_3_DacDiemLopCucBo_Local_Classes_01.cpp" />
+    <ClCompile Include="Bai_3_DacDiemLopCucBo_Local_Classes_02.cpp" />
+    <ClCompile Include="Bai_3_DacDiemLopCucBo_Local_Classes_03.cpp" />
+    <ClCompile Include="Bai_3_DacDiemLopCucBo_Local_Classed_04.cpp" />
+    <ClCompile Include="Bai_3_DacDiemLopCucBo_Local_Classes_05.cpp" />
   </ItemGroup>
 </Project>

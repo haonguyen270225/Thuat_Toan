@@ -28,6 +28,7 @@ public :
 	}
 };
 int main() {
+	cout << "\t Bai_1_KeThua_Inheritance.cpp" << endl;
 	Animal a("Sara");
 	a.Eat();
 	a.Sleep();
