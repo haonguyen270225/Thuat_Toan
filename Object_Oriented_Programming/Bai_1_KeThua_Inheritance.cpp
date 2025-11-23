@@ -26,7 +26,6 @@ public :
 	void Bark() {
 		cout << "Dog is barking ! " << endl;
 	}
-	
 };
 int main() {
 	Animal a("Sara");
