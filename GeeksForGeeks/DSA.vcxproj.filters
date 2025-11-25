@@ -1,2 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" />
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Algorithms">
+      <UniqueIdentifier>{cee90716-2661-4c0a-aee5-992838ee844b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Algorithms\Sorting">
+      <UniqueIdentifier>{c30c6714-038c-443a-94ef-0549683b3a3b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Object_Oriented_Programming\Quick_Sort.cpp">
+      <Filter>Algorithms\Sorting</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
