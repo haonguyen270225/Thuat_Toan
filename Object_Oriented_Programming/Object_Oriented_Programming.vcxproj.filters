@@ -37,6 +37,9 @@
     <ClCompile Include="Bai_4_LopEnum_Enum_Classcpp.cpp">
       <Filter>Enum_Class_&amp;_Traditional_Enum</Filter>
     </ClCompile>
+    <ClCompile Include="Quick_Sort.cpp">
+      <Filter>Algorithms\Sorting</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Local_Classes">
@@ -44,6 +47,12 @@
     </Filter>
     <Filter Include="Enum_Class_&amp;_Traditional_Enum">
       <UniqueIdentifier>{6cffa85d-987b-4dc6-8875-233f08505bcd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Algorithms">
+      <UniqueIdentifier>{d31997f3-4ef6-4c59-9b24-7f8c5abcb236}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Algorithms\Sorting">
+      <UniqueIdentifier>{85804e95-e4b6-4a59-82d0-a8dedbed7167}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>
