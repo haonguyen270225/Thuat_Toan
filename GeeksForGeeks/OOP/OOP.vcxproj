@@ -22,8 +22,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{b4431bbc-bd33-4d9c-8e42-82311c688432}</ProjectGuid>
-    <RootNamespace>DataStructuresGeeksForGeeks</RootNamespace>
+    <ProjectGuid>{2ae79bb4-b714-45a4-b8cc-c74bedacbb92}</ProjectGuid>
+    <RootNamespace>OOP</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
